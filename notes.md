@@ -57,7 +57,7 @@ solution:use A to append at each end of the line, j to move down the . to do the
 
 starter code
 ```
-var foo = 1;
+var foo = 1
 var bar = 'a'
 var baz = 'z'
 var foobar = foo + bar
@@ -124,7 +124,7 @@ task: surround the + with two spaces
 
 start code
 ```
-var foo = "method(" + argument1 + "," + argument2 + ")";
+var foo = "method("+argument1+","+argument2+")";
 ```
 
 end code
@@ -139,6 +139,58 @@ use ;. to repeat it.
 
 *************************************
 *************************************
-Tip4
-Act, Repeat, Reverse
+Tip4, Reverse
+task:Learn how to reverse if you go a step too far
+```
+Repeat Reverse
+.      u        
+;      ,        f{char} or t{char}
+n      N        F{char} or T{char}
+&      u
+@x     u
+```
 
+*************************************
+*************************************
+Tip5:Find nad Reaplace by Hand
+task:Replace the "copy" with evry "content"
+
+starter code
+```
+...We're waiting for content before the site can go live......
+...If you are content with this, let's go ahead with it......
+...We'll launch as soon as we have the conte......
+```
+
+end code
+```
+...We're waiting for copy before the site can go live......
+...If you are content with this, let's go ahead with it......
+...We'll launch as soon as we have the conte......
+```
+solution: Use the * to search more easily and then use the cw to change the words.
+          After that use the n. etc. to make changes.
+*************************************
+*************************************
+// Linked Tip 90: Eyeball Each Substitution
+tast: repalce content with the word copy
+
+starter code
+```
+...We're waiting for content before the site can go live...
+...If you are content with this, let's go ahead with it...
+...We'll launch as soon as we have the content...
+```
+
+end code
+```
+...We're waiting for copy before the site can go live...
+...If you are content with this, let's go ahead with it...
+...We'll launch as soon as we have the content...
+```
+solution: 1. use the :%s to search
+          2. use /content/copy/g to repalce
+          3. use /gc to ask evry time we search
+
+*************************************
+*************************************
