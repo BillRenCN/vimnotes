@@ -196,3 +196,4 @@ solution: 1. use the :%s to search
 *************************************
 Tip 
 
+test 1
