@@ -132,8 +132,7 @@ end code
 var foo = "method(" + argument1 + "," + argument2 + ")";
 ```
 
-Solution: 1. delete the + sign then change with the " + "sign using s.
-use ;. to repeat it.
+Solution: 1. delete the + sign then change with the " + "sign using s command which stands for substitiude.After that use ;. to repeat it.
           2. ; used to repeat the finding proceess.
 
 
@@ -153,7 +152,7 @@ n      N        F{char} or T{char}
 *************************************
 *************************************
 Tip5:Find nad Reaplace by Hand
-task:Replace the "copy" with evry "content"
+task:Replace the "copy" with every "content"
 
 starter code
 ```
@@ -191,6 +190,23 @@ end code
 solution: 1. use the :%s to search
           2. use /content/copy/g to repalce
           3. use /gc to ask evry time we search
+
+*************************************
+*************************************
+Tip 6: Meet the Dot Formula
+Task: review the tips from 1 to 5, find the main idea
+
+```
+One keystroke to Move, One Keystroke to Execute.
+```
+
+*************************************
+*************************************
+Tip7: Pause with Your Brush Off the Page 
+
+```
+You're not a programmer, You are an artist.
+```
 
 *************************************
 *************************************
