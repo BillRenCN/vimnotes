@@ -5,7 +5,7 @@ I will leave some hints and practical problems
 ```
 *************************************
 *************************************
-Tip1:
+Tip 1:
 Use the dot command
 Task: delete the first two lines and indent till the end of the text
 
@@ -30,7 +30,7 @@ solution: 1.use the >G to indent till the end of the text.
           
 *************************************
 *************************************
-Tip2:
+Tip 2:
 "Don't repeat yourself"
 Task: Append the ; at the end of each line of code
 
@@ -118,7 +118,7 @@ end code
 
 *************************************
 *************************************
-Tip3:
+Tip 3:
 Take One Step Back, Then Three Forward
 task: surround the + with two spaces
 
@@ -138,7 +138,7 @@ Solution: 1. delete the + sign then change with the " + "sign using s command wh
 
 *************************************
 *************************************
-Tip4, Reverse
+Tip 4, Reverse
 task:Learn how to reverse if you go a step too far
 ```
 Repeat Reverse
@@ -151,7 +151,7 @@ n      N        F{char} or T{char}
 
 *************************************
 *************************************
-Tip5:Find nad Reaplace by Hand
+Tip 5:Find nad Reaplace by Hand
 task:Replace the "copy" with every "content"
 
 starter code
@@ -202,7 +202,7 @@ One keystroke to Move, One Keystroke to Execute.
 
 *************************************
 *************************************
-Tip7: Pause with Your Brush Off the Page 
+Tip 7: Pause with Your Brush Off the Page 
 
 ```
 You're not a programmer, You are an artist.
@@ -210,4 +210,41 @@ You're not a programmer, You are an artist.
 
 *************************************
 *************************************
+Tip 8: Chunk Your Undos
 
+```
+Use the <Esc> + o instesd of <CR> will be useful if you need undo commands.
+```
+
+*************************************
+*************************************
+Tip 9: Compose Repeatable Changes
+
+task: Your cursor is positioned on the "h" at the end of this line of the text, you want to delete the word "nigh".
+
+start code
+```
+The end is nigh
+```
+
+end code
+```
+The end is
+```
+
+solution1: use "db" to delete backwords, after that use "x" to delete the rest h character.
+solution2: use "b" to to backwords, after that use db to delete a word.
+solution3: use "daw" to delete an entire word.
+
+*************************************
+*************************************
+//Related Tip52: Trace Your Selection with Precision Text Objects
+
+task:
+
+start code
+```
+var tpl = [
+    '<a href="{url}">{title}</a>'
+]
+```
