@@ -240,7 +240,7 @@ solution3: use "daw" to delete an entire word.
 *************************************
 //Related Tip52: Trace Your Selection with Precision Text Objects
 
-task:
+task: Change the {url} to "#" and the {title} to "click here"
 
 start code
 ```
@@ -248,3 +248,37 @@ var tpl = [
     '<a href="{url}">{title}</a>'
 ]
 ```
+
+end code
+```
+var tpl = [
+    '<a href="#">click here</a>'
+]
+```
+solution: use "ci#" command to change inside the double quotes. After that use the cit to change in the tags.
+
+*************************************
+*************************************
+Tip 10: Use Counts to Do simple Arithmetic
+
+task: 
+
+knowlege: <C-a> and <C-x> commands perform 10 addition and subtraction on numbers.
+
+start code
+```
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+```
+
+end code
+```
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px }
+.news { background-position: 180px 0px }
+```
+solution: 1. Use the yy to yank the entire line
+          2. Use p to paste to the next line
+          3. Use cW to change a hole chunck of word
+          4. Use <C-x>180 to substract 180 of the first 0
+
