@@ -6,7 +6,7 @@ I will leave some hints and practical problems
 *************************************
 *************************************
 Tip 1:
-Use the dot command
+> Use the dot command
 Task: delete the first two lines and indent till the end of the text
 
 start code
